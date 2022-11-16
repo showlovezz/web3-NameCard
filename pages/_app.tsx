@@ -21,6 +21,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 
 const { chains, provider, webSocketProvider } = configureChains(
   [
+    chain.goerli,
     chain.mainnet,
     chain.polygon,
     chain.optimism,
@@ -33,7 +34,7 @@ const { chains, provider, webSocketProvider } = configureChains(
     alchemyProvider({
       // This is Alchemy's default API key.
       // You can get your own at https://dashboard.alchemyapi.io
-      alchemyId: '_gg7wSSi0KMBsdKnGVfHDueq6xMB9EkC',
+      alchemyId: 'Da-2Ot_PmvmISYkxe74ryRO_uQ8fo6VJ',
     }),
     publicProvider(),
   ]
